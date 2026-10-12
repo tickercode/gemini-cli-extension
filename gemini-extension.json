@@ -1,0 +1,15 @@
+{
+  "name": "tickercode",
+  "version": "0.4.2",
+  "description": "Japanese stocks, financials, disclosures and your own watchlists through TickerCode MCP with OAuth.",
+  "mcpServers": {
+    "tickercode": {
+      "httpUrl": "https://api.ticker-code.com/mcp",
+      "oauth": {
+        "enabled": true,
+        "scopes": ["offline_access", "disclosure:read", "stock:read", "watch:read", "watch:write"]
+      }
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
