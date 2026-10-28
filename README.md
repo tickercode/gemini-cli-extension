@@ -21,7 +21,7 @@ Sign in to your own ティッカーコード account in the browser and review t
 For a pinned release:
 
 ```sh
-gemini extensions install https://github.com/tickercode/gemini-cli-extension --ref v0.4.2
+gemini extensions install https://github.com/tickercode/gemini-cli-extension --ref v0.4.3
 ```
 
 ## Examples
