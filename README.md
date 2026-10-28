@@ -1,6 +1,6 @@
-# TickerCode for Gemini CLI
+# ティッカーコード for Gemini CLI
 
-Connect [Gemini CLI](https://geminicli.com) to [TickerCode](https://ticker-code.com) for Japanese stocks, company financials, disclosures and your own watchlists.
+Connect [Gemini CLI](https://geminicli.com) to [ティッカーコード](https://ticker-code.com) for Japanese stocks, company financials, disclosures and your own watchlists.
 
 ## Install
 
@@ -16,7 +16,7 @@ Restart any already-running Gemini CLI session after installation. In the intera
 /mcp list
 ```
 
-Sign in to your own TickerCode account in the browser and review the requested permissions. The extension requests stock/disclosure reads, your watchlist reads and writes, and `offline_access` for refresh. No API key or password is included in the extension. Gemini CLI manages the OAuth credentials. Re-run `/mcp auth tickercode` if reconnection is needed.
+Sign in to your own ティッカーコード account in the browser and review the requested permissions. The extension requests stock/disclosure reads, your watchlist reads and writes, and `offline_access` for refresh. No API key or password is included in the extension. Gemini CLI manages the OAuth credentials. Re-run `/mcp auth tickercode` if reconnection is needed.
 
 For a pinned release:
 
@@ -36,7 +36,7 @@ gemini extensions install https://github.com/tickercode/gemini-cli-extension --r
 
 ## Privacy and network
 
-The extension uses Streamable HTTP at `https://api.ticker-code.com/mcp`. OAuth discovery identifies `https://ticker-code.com` as the issuer; browser sign-in, consent, client registration and token exchange use that service. Only the account and scopes you authorize can access your private watchlists. MCP results enter your Gemini session and are subject to Google's applicable terms and data policies as well as TickerCode's policies.
+The extension uses Streamable HTTP at `https://api.ticker-code.com/mcp`. OAuth discovery identifies `https://ticker-code.com` as the issuer; browser sign-in, consent, client registration and token exchange use that service. Only the account and scopes you authorize can access your private watchlists. MCP results enter your Gemini session and are subject to Google's applicable terms and data policies as well as ティッカーコード's policies.
 
 See [MCP privacy details](https://cdn.ticker-code.com/review/tickercode-mcp-privacy-v1.html), [privacy policy](https://ticker-code.com/legal/privacy), and [service terms](https://ticker-code.com/legal/terms). Contact [support](https://ticker-code.com/contact) or info@tc-kk.com.
 
